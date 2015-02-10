@@ -1972,12 +1972,6 @@ config MSM_CPU_FREQ_MIN
 
 endif # CPU_FREQ_MSM
 
-config CPU_OC
-	bool "allow 2.803 GHz OC bin"
-	default n
-	help
-	  Unlock the CPU Overclock freq speed @ 2.803 GHz
-
 config MSM_DEVFREQ_CPUBW
 	bool "Devfreq device for CPU<->DDR IB/AB BW voting"
 	depends on PM_DEVFREQ
